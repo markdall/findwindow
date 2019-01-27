@@ -21,7 +21,7 @@ def app_activate(title):
         AppActivate(hwnd)
         return True
     else:
-        print("Couldn't find tabsvc.")
+        print("Couldn't find " + title + ".")
         return False
 
 if __name__ == "__main__":
